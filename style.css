@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(176, 218, 227);
+}
+#navbar{display: flex;
+    height: 60px;
+    width: 100%;
+     background-color: #0f1111;
+}
+#lowernavbar{display: flex;
+   
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+height:40px;
+width: 100%;
+background-color:#222f3d;
+}
+#logo{height:60px;
+    width:120px;
+    background-image: url(Images/amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+
+    #loc{margin-left: 15px;
+    color: aliceblue;
+}
+#deliver{margin-top: 10px;
+    margin-left: 15px;
+}
+#all
+{
+    height:34px;
+    width:50px;
+    background-color: #E6E6E6;
+    margin-right:0px;
+    border-color: #E6E6E6;
+}
+#input{border-color:#FFFFFF;
+    height:30px;
+    width:680px;
+    background-color:#FFFFFF;
+}
+#dropdown{
+    color: #0f1111;
+}
+#sicon{display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30px;
+    width:20px;
+    background-color: orange;}
+#searchbarflex{margin-left: 20px;
+    margin-top: 15px;
+display: flex;
+    justify-content: flex-start;
+}
+#flag
+{margin-top: 20px;
+    margin-left: 20px;
+height:50px;
+width:30px;
+background-size: contain;
+background-repeat: no-repeat;
+background-image: url(Images/us.jpeg);
+}
+#en{margin-top: 20px;
+    margin-left: 0px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cart{margin-top: 10px;
+    margin-left: 30px ;
+    height: 50px;
+    width:70px;
+    background-image: url(Images/shoppingcart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#shop{margin-top: 30px;
+    color: #E6E6E6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right:10px;
+    
+}
+#hello{margin-top: 10px;
+    margin-left: 20px;
+}
+#return{margin-top: 10px;
+    margin-left: 20px;
+}
+.border{
+    border: solid 2px transparent;
+}
+.border:hover{
+border: solid 2px white;
+}
+#al{
+    margin-top: 10px;
+}
+#Today{margin-top: 10px;
+margin-left: 14px;
+}
+#cust{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#reg{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#gift{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#sell{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+#hamburger{
+    margin-top:10px
+}
+#bodyimg{display:flex;
+    
+    height:500px;
+    width:100%;
+    background-image: url(Images/amazonbody.jpg);
+    
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+}
+#firline{display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #0f1111;
+    margin-top: 250px;
+    
+    
+}
+#link{
+    color: rgb(25, 128, 197);
+}
+#link:hover{
+    color: red;
+    text-decoration: underline;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box{background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    height: 300px;
+    width: 20%;
+}
+.box-img{
+    height: 260px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#panel1{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    background-color:#37475a ;
+    color:#FFFFFF;
+}
+#panel2{height:350px;
+    background-color: #232F3E;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.panehead{
+    margin-top: 20px;
+
+}
+#logo2{display: flex;
+    justify-content: center;
+    
+    height: 100px;
+    background-color: #222f3d;
+    border-top: solid white 0.5px ;
+}
+#img2{
+    height: 200px;
+    width: 150px;
+    background-image: url(Images/amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ #panel3{
+    height:100px ;
+    background-color:#1c2020;
+    color: #FFFFFF;
+    text-align: center;
+}
+#pane3{
+    padding-top: 20px;
+}
+.copy{
+    
+   padding-top: 5px;
+}
